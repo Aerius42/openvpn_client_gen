@@ -12,3 +12,11 @@ or
 sudo su
 cp /usr/share/doc/openvpn/examples/easy-rsa/2.0/* /etc/openvpn/easy-rsa/
 ```
+
+## Usage
+```bash
+sudo su
+chmod 755 openvpn_client_gen.sh
+./openvpn_client_gen.sh
+```
+Then, follow the instructions.
