@@ -82,6 +82,7 @@ if [ $? -eq 0 ]; then
 	mkdir -p /etc/openvpn/clientconf/$id/
 	cp /etc/openvpn/ca.crt /etc/openvpn/ta.key keys/$id.* /etc/openvpn/clientconf/$id/
 	cd /etc/openvpn/clientconf/$id/
+	chmod 644 *
 
 	cat > client.conf <<- EOF
 # Client
