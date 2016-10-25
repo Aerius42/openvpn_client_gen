@@ -107,7 +107,6 @@ comp-lzo
 verb 3
 	EOF
 
-  chmod 644 *
 	echo "-----"
 	echo "Finished ! You will find the new key named $id here:"
 	echo "/etc/openvpn/clientconf/$id/"
